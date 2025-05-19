@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login / Criação de Conta</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f9f9f9;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        .container {
+            text-align: center;
+            background-color: #ffffff;
+            padding: 20px 40px;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            width: 300px;
+        }
+        .container h1 {
+            font-size: 18px;
+            color: #444444;
+        }
+        .container p {
+            font-size: 14px;
+            color: #666666;
+            margin-bottom: 20px;
+        }
+        input[type="email"] {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 20px;
+            border: 1px solid #cccccc;
+            border-radius: 4px;
+        }
+        button {
+            background-color: #00ff37;
+            color: white;
+            border: none;
+            padding: 10px;
+            width: 100%;
+            border-radius: 4px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #0aa531;
+        }
+        .divider {
+            display: flex;
+            align-items: center;
+            margin: 20px 0;
+        }
+        .divider::before,
+        .divider::after {
+            content: "";
+            flex: 1;
+            border-bottom: 1px solid #cccccc;
+        }
+        .divider span {
+            margin: 0 10px;
+            color: #999999;
+        }
+        .social-login {
+            display: flex;
+            justify-content: center;
+            gap: 10px;
+        }
+        .social-login img {
+            width: 30px;
+            height: 30px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Login / Criação de conta</h1>
+        <p>Preenche o teu email para fazeres login ou criar uma conta.</p>
+        <form>
+            <input type="email" placeholder="E-mail" required>
+            <button type="submit">Login / Criação de conta</button>
+        </form>
+        <p></p>
+        <a href="paginicial.html"><button type="submit">Voltar</button></a>
+    </div>
+</body>
+</html>

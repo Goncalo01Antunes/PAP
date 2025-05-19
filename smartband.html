@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Produto - Exemplo</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+        }
+
+        .container {
+            display: flex;
+            max-width: 1200px;
+            margin: 20px auto;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+        }
+
+        .image-section {
+            flex: 1;
+            padding: 20px;
+            border-right: 1px solid #ddd;
+        }
+
+        .image-section img {
+            width: 100%;
+            border-radius: 8px;
+        }
+
+        .thumbnails {
+            display: flex;
+            flex-direction: column;
+            margin-top: 10px;
+            gap: 10px;
+        }
+
+        .thumbnails img {
+            width: 60px;
+            cursor: pointer;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+
+        .details-section {
+            flex: 2;
+            padding: 20px;
+        }
+
+        .details-section h1 {
+            font-size: 24px;
+            margin-bottom: 10px;
+        }
+
+        .details-section p {
+            font-size: 14px;
+            margin: 5px 0;
+        }
+
+        .price-section {
+            margin-top: 20px;
+            font-size: 20px;
+            color: #259e02;
+        }
+
+        .button-section {
+            margin-top: 20px;
+        }
+
+        .button-section button {
+            background-color: #00b5ff;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+            border-radius: 4px;
+            width: 100%;
+        }
+
+        .button-section button:hover {
+            background-color: #0095d4;
+        }
+
+        .stock-section {
+            margin-top: 10px;
+            font-size: 14px;
+        }
+
+        .stock-section span {
+            color: #259e02;
+        }
+
+    </style>
+
+     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Características</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f9f9f9;
+            margin: 0;
+            padding: 20px;
+        }
+
+        .caracteristicas-container {
+            max-width: 800px;
+            margin: 0 auto;
+            background-color: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .caracteristicas-container h2 {
+            text-align: left;
+            font-size: 24px;
+            margin-bottom: 20px;
+        }
+
+        .caracteristicas-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 20px;
+        }
+
+        .caracteristica {
+            display: flex;
+            flex-direction: column;
+            background-color: #f5f5f5;
+            padding: 10px;
+            border-radius: 4px;
+        }
+
+        .caracteristica span {
+            font-weight: bold;
+            color: #333;
+        }
+
+        .caracteristica p {
+            margin: 0;
+            color: #666;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <!-- Seção da Imagem -->
+    <div class="image-section">
+        <img src="images/exclusive.png" alt="Imagem do Produto">
+        <div class="thumbnails">
+        </div>
+    </div>
+
+    <!-- Seção de Detalhes -->
+    <div class="details-section">
+        <h1>Smart Band 4</h1>
+        
+        <div class="price-section">
+            <p>57,03€</p>
+            <p><strong>PORTES GRÁTIS</strong></p>
+        </div>
+
+        <div class="button-section">
+            <button>Adicionar ao Carrinho</button>
+            <h1></h1>
+            <a href="javascript:history.back()"><button type="submit">Voltar</button></a>
+        </div>
+
+        <div class="stock-section">
+            <p>Stock para Expedição: <span>Online - Poucas unidades</span></p>
+        </div>
+    </div>
+
+    <div class="caracteristicas-container">
+        <h2>Sobre o Produto</h2>
+        <div class="caracteristicas-grid">
+            <!-- Coluna 1 -->
+            <div class="caracteristica">
+                <span>Resolução</span>
+                <p>1366 x 768</p>
+            </div>
+            <div class="caracteristica">
+                <span>Polegadas</span>
+                <p>14</p>
+            </div>
+            <div class="caracteristica">
+                <span>Modelo</span>
+                <p>Latitude 5400</p>
+            </div>
+            <div class="caracteristica">
+                <span>Velocidade do processador</span>
+                <p>1.6 GHz</p>
+            </div>
+            <div class="caracteristica">
+                <span>Armazenamento</span>
+                <p>256 GB</p>
+            </div>
+            <div class="caracteristica">
+                <span>Memória RAM</span>
+                <p>8 GB</p>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+
+</body>
+</html>
